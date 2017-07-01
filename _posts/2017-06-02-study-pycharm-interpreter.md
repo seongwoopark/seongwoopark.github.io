@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 파이참에서 도커 디버깅 환경 셋팅하기
+title: 파이참에서 도커 디버깅 환경 셋팅
 subtitle: remote interpreter를 docker container로 추가
 category: study
 tags: [advanced, pycharm, docker, docker-compose]
@@ -70,7 +70,7 @@ docker-compose를 사용하면서 변경되어야 하는 container의 network설
 
 1. run/debug configuration 디테일<br />
 빨간 box부분만 설정해주면 된다. 자세한 설명은 **파이참 인터프리터를 이용한 run/debug 설정 레퍼런스**의 두번째 링크를 참조한다.<br />
-![run_debug_config](https://github.com/seongwoopark/seongwoopark.github.io/blob/master/img/1_run_debug_config.png?raw=true)<br /><br />
+![run_debug_config](https://github.com/seongwoopark/seongwoopark.github.io/blob/master/img/2017-06-02-study-pycharm-interpreter_1.png?raw=true)<br /><br />
 `Name`: configuration파일의 이름을 적당히 정해주면 된다.<br />
 `Target`: 디버그를 실행할 Target파일의 경로를 정한다. Working Directory 아래에서부터의 경로를 정한다.<br />
 `Environment variables`: 장고 app 실행시 필요한 환경변수를 설정한다. 아래 2번 이미지 참조.<br />
@@ -81,14 +81,14 @@ docker-compose를 사용하면서 변경되어야 하는 container의 network설
 `Docker Container settings`: Docker container에 설정했던(docker-compose.yml에 설정했던) option들을 설정한다. 아래 4번이미지 참조.<br />
 
 2. Environment variables 디테일<br />
-![envrionment_vars](https://github.com/seongwoopark/seongwoopark.github.io/blob/master/img/2_envrionment_vars.png?raw=true)<br /><br />
+![envrionment_vars](https://github.com/seongwoopark/seongwoopark.github.io/blob/master/img/2017-06-02-study-pycharm-interpreter_2.png?raw=true)<br /><br />
 `PYTHONBUFFERED`: 값은 1로 기본적으로 설정되어있다. 나는 유지했다.<br />
 
 3. Path mappings 디테일<br />
-![path_mappings](https://github.com/seongwoopark/seongwoopark.github.io/blob/master/img/3_path_maping.png?raw=true)<br /><br />
+![path_mappings](https://github.com/seongwoopark/seongwoopark.github.io/blob/master/img/2017-06-02-study-pycharm-interpreter_3.png?raw=true)<br /><br />
 
 4. Docker Container settings 디테일<br />
-![docker_contatiner_settings](https://github.com/seongwoopark/seongwoopark.github.io/blob/master/img/4_docker_contatiner_settings.png?raw=true)<br /><br />
+![docker_contatiner_settings](https://github.com/seongwoopark/seongwoopark.github.io/blob/master/img/2017-06-02-study-pycharm-interpreter_4.png?raw=true)<br /><br />
 `Network Mode`: **파이참 인터프리터를 이용한 run/debug 설정 레퍼런스**의 세번째 링크를 참조한다. docker-compose up 명령어를 실행 후
 생성되는 container network의 이름을 설정한다. 이를 bridge나 다른 이름으로 설정할 경우 Links 부분에서 참조를 하지 못한다.<br />
 
