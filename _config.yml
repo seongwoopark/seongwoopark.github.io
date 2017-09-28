@@ -24,6 +24,7 @@ description: Park's blog
 # List of links in the navigation bar
 navbar-links:
   Home: "blog/index"
+  TIL: "blog/TIL/index"
   Study: "blog/study/index"
   Algorithm: "blog/algorithm/index"
   Projects: "blog/project/index"
@@ -113,7 +114,7 @@ timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
+paginate: 15
 paginate_path: "/blog/page:num/"
 
 kramdown:

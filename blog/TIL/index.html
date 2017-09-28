@@ -1,13 +1,11 @@
 ---
 layout: page
-title: Tech Blog's Home
-subtitle: This is list of all my posts that I wrote
+title: Today I Learned
 use-site-title: true
-comments: true
 ---
 
 <div class="posts-list">
-  {% for post in paginator.posts %}
+  {% for post in site.categories.TIL %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
