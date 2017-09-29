@@ -3,7 +3,7 @@ layout: post
 title: 홀수인 숫자들의 제곱의 합
 subtitle: from 로켓펀치 채용공고
 category: algorithm
-tags: [algorithm]
+tags: [algorithm, strings]
 ---
 
 <h4>문제</h4>
