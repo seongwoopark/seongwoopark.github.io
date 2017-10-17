@@ -7,8 +7,8 @@ tags: [algorithm, dynamic programming]
 ---
 
 <h4>문제</h4>
-![problem](https://github.com/seongwoopark/seongwoopark.github.io/blob/master/img/2017-07-01-algorithm-fibonacci_modified_1.png?raw=true)<br /><br />
-![problem](https://github.com/seongwoopark/seongwoopark.github.io/blob/master/img/2017-07-01-algorithm-fibonacci_modified_2.png?raw=true)<br /><br />
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-03-algorithm-fibonacci_modified_1.png)<br /><br />
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-03-algorithm-fibonacci_modified_2.png)<br /><br />
 
 <h4>풀이 및 답</h4>
 ```
