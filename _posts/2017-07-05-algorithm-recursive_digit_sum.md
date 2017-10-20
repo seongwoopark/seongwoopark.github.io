@@ -5,11 +5,11 @@ subtitle: from HackerRank
 category: algorithm
 tags: [algorithm, recursion]
 ---
-<br/><h4>문제</h4>
+<h4>문제</h4>
 ![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-05-algorithm-recursive_digit_sum_1.png?raw=true)<br /><br />
 ![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-05-algorithm-recursive_digit_sum_2.png?raw=true)<br /><br />
 
-<br/><h4>풀이 및 답</h4>
+<h4>풀이 및 답</h4>
 처음 constraints를 제대로 살피지 못하고 무작정 문제 정의와 예시의 함수 호출 설명 그대로 작성한 로직은 아래와 같았다.
 ```  
 #!/bin/python3

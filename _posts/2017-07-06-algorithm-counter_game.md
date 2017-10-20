@@ -5,11 +5,11 @@ subtitle: from HackerRank
 category: algorithm
 tags: [algorithm, bit manipulation]
 ---
-<br/><h4>문제</h4>
+<h4>문제</h4>
 ![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-06-algorithm-counter_game_1.png?raw=true)<br /><br />
 ![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-06-algorithm-counter_game_2.png?raw=true)<br /><br />
 
-<br/><h4>풀이 및 답</h4>
+<h4>풀이 및 답</h4>
 문제에서 정의하는 operations를 생각해보면 결국 아래와 같아진다는 것을 알았다.
 - N보다 작으면서 가장 큰 2의 제곱을 뺀다.
 

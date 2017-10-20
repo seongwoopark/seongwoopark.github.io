@@ -5,12 +5,12 @@ subtitle: from 로켓펀치 채용공고
 category: algorithm
 tags: [algorithm, strings]
 ---
-<br/><h4>문제</h4>
+<h4>문제</h4>
 주어진 문자열에서 홀수인 숫자들의 제곱의 합을 출력한다.<br/>
 예) "ab2v9bc13j5jf4jv21" -> 9^2 + 13^2 + 5^2 + 21^2 = 716
 <br/>출처 - [로켓펀치 채용공고](https://www.rocketpunch.com/jobs/32429/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8B%A0%EC%9E%85)
 
-<br/><h4>풀이 및 답</h4>
+<h4>풀이 및 답</h4>
 개발팀 내에서 간단한 문제가 공유되어서 문제를 풀어보았다. regex를 사용하려 했지만 자체 constrains를 둬서 regex를 사용하지 않기로 했다.
  내가 풀이한 방법은 아래와 같다.
 ```python
