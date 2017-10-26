@@ -40,7 +40,7 @@ n0를 기준으로 n0보다 오른쪽에 있는 모든 n 값에 대해 함수 f(
 ![theta_notation_graph](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-26-study-time_complexity_3.png)<br/>
 n0를 기준으로 n0보다 오른쪽에 있는 모든 n 값에 대해 함수 f(n)은 함수 c1g(n)보다 크거나 같거나 c2g(n)보다 작거나 같다는 의미이다.
 
-**Note; Θ(1) == O(1) == constant time**<br/>
+<br/>**Note; Θ(1) == O(1) == constant time**<br/>
 연산시간이 상수만큼의 시간을 필요로 하는 알고리즘을 표시할때 쓰이는 표기법이다.  
 
 <h4>적용</h4>
