@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BT Traversal(또는 Tree Traversal) 복습
+title: BT Traversal 복습
 subtitle: from HackerRank
 category: study
 tags: [basic, binary tree, iterate, traversal algorithm]
@@ -78,7 +78,7 @@ levelOrder(BinaryTree t) {
 ```
 
 <h4>적용</h4>
-![binary_tree example](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-26-study-bst-traversal_1.png)<br/>
+![binary_tree example](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-26-study-bt_traversal_1.png)<br/>
 위의 그림에 4가지 traversal알고리즘을 적용하면 아래와 같이 처리한다.
 - InOrder: `1 2 3 4 5 6 7`
 - PostOrder: `1 3 2 5 7 6 4`
