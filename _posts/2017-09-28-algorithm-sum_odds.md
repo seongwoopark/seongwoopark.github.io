@@ -40,7 +40,7 @@ s = 'ab2v9bc13j5jf4jv21'
 s_spaced = ''.join(c if c.isnumeric() else ' ' for c in s)
 sum(int(d)*int(d) for d in s_spaced.split() if int(d)&1)
 ```
-심지어 js 버전도 작성, 한줄짜리 코드가 완성해주셨다.
+심지어 js 버전도 작성, 한줄짜리 코드를 완성해주셨다.
 ```javascript
  s.split('').map(c => isNaN(+c)? ' ': c).join('').split(' ').filter(c => +c > 0 && c&1).reduce((a,b) => (+a)+(+b)*(+b), 0)
 ```

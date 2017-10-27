@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Time Complexity(Asymptotic Analysis) 복습
+title: Time Complexity 복습
 subtitle: from HackerRank
 category: study
 tags: [basic, time complexity]
