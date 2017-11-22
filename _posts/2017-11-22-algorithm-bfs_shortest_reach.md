@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BFS: Shortest Reach in a Graph
+title: BFS, Shortest Reach in a Graph
 subtitle: from HackerRank
 category: algorithm
 tags: [algorithm, bfs, graph]
