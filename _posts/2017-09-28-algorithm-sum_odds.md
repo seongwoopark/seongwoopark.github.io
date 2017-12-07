@@ -6,6 +6,7 @@ category: algorithm
 tags: [algorithm, strings]
 ---
 <h4>문제</h4>
+**Note:** 문제 이름은 임의로 작성한 것 입니다.<br/>
 주어진 문자열에서 홀수인 숫자들의 제곱의 합을 출력한다.<br/>
 예) "ab2v9bc13j5jf4jv21" -> 9^2 + 13^2 + 5^2 + 21^2 = 716
 <br/>출처 - [로켓펀치 채용공고](https://www.rocketpunch.com/jobs/32429/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8B%A0%EC%9E%85)
