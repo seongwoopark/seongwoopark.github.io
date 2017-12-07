@@ -6,8 +6,8 @@ category: algorithm
 tags: [algorithm, linked lists]
 ---
 <h4>문제</h4>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-17-algorithm-detect_a_cycle_1.PNG)<br/><br/>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-17-algorithm-detect_a_cycle_2.PNG)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-17-algorithm-detect_a_cycle_1.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-17-algorithm-detect_a_cycle_2.png)<br/><br/>
 
 <h4>풀이 및 답</h4>
 ```
