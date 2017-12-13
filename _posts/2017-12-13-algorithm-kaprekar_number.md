@@ -17,7 +17,7 @@ Some numbers have more than one generator: for example, 101 has two generators, 
 A number with no generators is a self-number.<br/>
 There are thirteen self-numbers less than 100: 1, 3, 5, 7, 9, 20, 31, 42, 53, 64, 75, 86, and 97.<br/>
 <br/>
-\- Write a program to sum of all self-numbers which are bigger than 0 and smaller than 5000.<br/>
+**\- Write a program to sum of all self-numbers which are bigger than 0 and smaller than 5000.**<br/>
 
 <h4>풀이 및 답</h4>
 
