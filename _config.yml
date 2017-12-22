@@ -25,6 +25,7 @@ description: Park's blog
 navbar-links:
   Home: "blog/index"
   TIL: "blog/TIL/index"
+  TIF: "blog/TIF/index"
   Study: "blog/study/index"
   Algorithm: "blog/algorithm/index"
   Projects: "blog/project/index"
