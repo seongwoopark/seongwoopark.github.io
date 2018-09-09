@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Today I Learned
+title: Today I Learned & Found
 use-site-title: true
 ---
 
 <div class="posts-list">
-  {% for post in site.categories.TIL %}
+  {% for post in site.categories.TIL&TIF %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
