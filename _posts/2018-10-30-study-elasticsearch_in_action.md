@@ -16,7 +16,7 @@ tags: [advanced, searchengine, database, nosql, elasticsearch]
 <h4>Note</h4>
 <h5>Ch 1~2 Introducing Elasticsearch, Diving into the functionality</h5>
 [Understanding Elasticsearch Basic](https://docs.google.com/presentation/d/1DX96ct6SYE2nckMH9UE1Y13v18tku4StD83Um2iLNXA/edit?usp=sharing) 라는 제목으로
-사내 발표를 진행했었는데, 이때 교재의 1~2 챕터를 커버했다. elasticsearch의 핵심적인 내용, 특성, 샤딩, 언제 사용해야 하는지 등에 대해서 개괄하는 내용을 담고있다.
+사내 발표를 진행했었는데, 이때 교재의 1~2 챕터를 커버했다. elasticsearch의 핵심적인 내용, 특성, 샤딩, 언제 사용해야 하는지 등에 대해서 개괄하는 내용을 담고있다.<br/><br/>
 
 <h5>Ch 3 Indexing, updating, and deleting data</h5>
 Data types<br/>
@@ -40,7 +40,7 @@ Setting index to not_analyzed does the opposite: the analysis process is skipped
 and the entire string is indexed as one term. Use this option when you want exact matches, 
 such as when you search for tags.<br/>
 -> mapping의 field type의 index를 not_analyzed로 셋팅하면 doc이 index될때 전체 입력을 하나의 term으로 만들어주고 결과적으로 exact match가 되게된다<br/>
--> mapping의 field type의 index를 no로 셋팅하면 해당 필드는 doc이 index될때 아예 indexing 프로세스에서 제외된다(전체 indexing시간을 줄이는 효과를 가져온다<br/>
+-> mapping의 field type의 index를 no로 셋팅하면 해당 필드는 doc이 index될때 아예 indexing 프로세스에서 제외된다(전체 indexing시간을 줄이는 효과를 가져온다<br/><br/>
 
 <h5>Ch 4 Searching your data</h5>
 search 사용; 다중 index 및 다중 field 지정
@@ -81,7 +81,7 @@ Summary
 - Ngram 토큰 필터는 단어 일부로 토큰을 만든다. 예를들어, 매번 두 개의 연속하는 문자를 토큰으로 만들 수 있다. 이는 검색 문자열이 오자(typo)를 포함 하더라도 동작하는 검색이 필요하다면 유용하다.
 - Edge ngram은 ngram과 비슷하지만 오직 단어의 시작 또는 마지막으로부터 처리한다는 것이 다르다. 예를들어, “event”으로 e, ev, eve 토큰을 만들 수 있다
 - Shingle은 ngram과 구(Phrase) 수준에서는 닮았다. 예를들어, 구에서 매번 연속하는 두 개의 단어로 텀을 생성할 수 있다. 이는 제품의 요약 설명에서처럼 다중-단어 일치에 대해 적합성을 높이려 할 때 유용하다.
-
+<br/><br/>
 
 <h5>Ch 7 Exploring your data with aggregations</h5>
 집계(Aggregations) 종류
@@ -134,7 +134,7 @@ Summary
 - 히스토그램 / 날짜 히스토그램 집계도 유사하지만, 날짜 범위를 지정하는 대신 날짜 간격을 이용한다.
 - global, filter/filters, missing 집계와 같은 단일 버킷 집계는 질의의 결과로 문서를 반환하며,
 다른 집계가 실행하는 문서집합을 변경하는 데 사용 된다.
-
+<br/><br/>
 
 <h5>Ch 8 Relations among documents</h5>
 elasticsearch에서 도큐먼트간 관계를 다루는 방법들
