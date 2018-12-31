@@ -31,11 +31,11 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-## avatar: "/img/avatar-icon.png"
+## avatar: "/media/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: /img/index_logo.png
+title-img: /media/index_logo.png
 
 # --- Footer options --- #
 
@@ -152,7 +152,7 @@ exclude:
 # prose.io config
 prose:
   rooturl: '_posts'
-  media: 'img'
+  media: 'media'
   ignore:
     - 404.html
     - LICENSE
@@ -161,7 +161,7 @@ prose:
     - /_layouts
     - /_includes
     - /css
-    - /img
+    - /media
     - /js
   metadata:
     _posts:

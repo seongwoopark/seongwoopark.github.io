@@ -22,7 +22,7 @@ pycharm의 디버그 기능을 온전히 이용할 수 있게 설정을 해보�
 docker의 container는 process의 개념과 유사한 것으로 알고있다. 그래서 pycharm에서
 remote 인터프리터를 docker로 설정하는 것이 다른 가상화 도구(vagrant)보다 까다로운 듯이 보인다.
 아무튼, 설정을 위해 알아본 결과, 위 링크를 참조하여 그대로 설정한다. 아래는 설정 흐름을 순서대로 나타낸 것이다.<br/>
-![img5](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-06-02-study-pycharm_interpreter_5.png?raw=true)<br/>
+![img5](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-06-02-study-pycharm_interpreter_5.png?raw=true)<br/>
 링크에 자세히 나와있지만, docker machine이 not available 할 경우 위 그림의 2번 과정인 New 버튼을 누르고나서 설정하는 부분에 대해서는 설명되어 있지 않다.
 그림의 3번 라디오 버튼을 누르고, 체크가 완료되면 4번 박스 부분에 "Connection successful"이라고 display되면 문제가 없는 것이다.
 <br/>**Note: 이 과정에서 문제가 발생하면 2-1과정을 진행한 후 다시 이 부분으로 돌아온다.**<br/>
@@ -67,7 +67,7 @@ docker-compose를 사용하면서 변경되어야 하는 container의 network설
 
 1. run/debug configuration 디테일<br/>
 빨간 box부분만 설정해주면 된다. 자세한 설명은 *4. run/debug 설정의 두번째 링크*를 참조한다.<br/>
-![img1](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-06-02-study-pycharm_interpreter_1.png?raw=true)<br/><br/>
+![img1](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-06-02-study-pycharm_interpreter_1.png?raw=true)<br/><br/>
 **Name:** configuration파일의 이름을 적당히 정해주면 된다.<br/>
 **Target:** 디버그를 실행할 Target파일의 경로를 정한다. Working Directory 아래에서부터의 경로를 정한다.<br/>
 **Environment variables:** 장고 app 실행시 필요한 환경변수를 설정한다. 아래 2번 이미지 참조.<br/>
@@ -78,14 +78,14 @@ docker-compose를 사용하면서 변경되어야 하는 container의 network설
 **Docker Container settings:** Docker container에 설정했던(docker-compose.yml에 설정했던) option들을 설정한다. 아래 4번이미지 참조.<br/>
 
 2. Environment variables 디테일<br/>
-![img2](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-06-02-study-pycharm_interpreter_2.png?raw=true)<br/><br/>
+![img2](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-06-02-study-pycharm_interpreter_2.png?raw=true)<br/><br/>
 **PYTHONBUFFERED:** 값은 1로 기본적으로 설정되어있다. 나는 유지했다.<br/>
 
 3. Path mappings 디테일<br/>
-![img3](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-06-02-study-pycharm_interpreter_3.png?raw=true)<br/><br/>
+![img3](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-06-02-study-pycharm_interpreter_3.png?raw=true)<br/><br/>
 
 4. Docker Container settings 디테일<br/>
-![img4](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-06-02-study-pycharm_interpreter_4.png?raw=true)<br/><br/>
+![img4](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-06-02-study-pycharm_interpreter_4.png?raw=true)<br/><br/>
 **Network Mode:** *4. run/debug 설정의 세번째 링크*를 참조한다. `docker-compose up -d` 명령어를 실행 후
 생성되는 container network의 이름을 설정한다. 이를 bridge나 다른 이름으로 설정할 경우 Links 부분에서 참조를 하지 못한다.<br/>
 

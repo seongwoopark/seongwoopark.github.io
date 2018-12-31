@@ -19,7 +19,7 @@ Binary Tree(이진트리)는 기본적으로 노드와 엣지로 구성된다.
 7. 트리의 height는 root노드와 가장 먼 leaf노드와의 엣지의 갯수를 의미한다. root노드 r을 갖는 이진트리 t의 height는 다음과 같다. height(t) = 1 + max(height(r.leftchild), height(r.rightchild))
 
 이 개념을 아래 그림에 적용해보자.<br/>
-![binary_tree](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-24-study-binary_search_trees_1.png)<br/>
+![binary_tree](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-10-24-study-binary_search_trees_1.png)<br/>
 
 1. Binary Tree의 root노드는 A이다.
 2. A의 children노드는 B와 E이고, B와 E의 parent노드는 A이다.

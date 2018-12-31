@@ -6,7 +6,7 @@ category: study
 tags: [basic, lessons, operation system]
 ---
 <h4>Operating System 이란?</h4>
-![capture](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-02-study-intro_os_1.png)
+![capture](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-11-02-study-intro_os_1.png)
 <br/>
 "An operating system is the layer of systems software sits between the complex hardware and all of the applications."
 운영체제는 복잡한 하드웨어와 모든 어플리케이션 사이에 위차하는 시스템 소프트웨어 레이어이다.<br/>
@@ -30,29 +30,29 @@ create, schedule, open, write, allocate
 Policies:<br/>
 least recently used(LRU), earliest deadline first(EDF)
 <br/><br/>Examples<br/>
-![capture](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-02-study-intro_os_2.png)
+![capture](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-11-02-study-intro_os_2.png)
 
 <h4>OS Protection Boundary: User/Kernel</h4>
 user level(unprivileged mode): applications<br/>
 kernel level(privileged mode): OS kernel, privileged direct hardware access<br/>
 <br/>
 user-kernel switch(transition)<br/>
-![capture](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-02-study-intro_os_3.png)
+![capture](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-11-02-study-intro_os_3.png)
 
 
 <h4>OS Types</h4>
 1. Monolithic OS: Kernel이 memory management, device driver, file management, process/thread, scheduling, random i/o filesystem, sequential i/o filesystem
 등의 모든 기능을 다 갖는 구조<br/>
-![capture](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-02-study-intro_os_4.png)
+![capture](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-11-02-study-intro_os_4.png)
 <br/><br/>
 
 2. Modular OS: Kernel이 기능을 모듈별로 관리하고, 모듈을 외부로 부터 설치할 수 있는 구조<br/>
-![capture](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-02-study-intro_os_5.png)
+![capture](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-11-02-study-intro_os_5.png)
 <br/><br/>
 
 
 3. Microkernel: Kernel이 오직 application들을 실행하기 위한 기본적인 address space, threads 관리하는 기능만을 갖고, 나머지 기능(filesystem, disk driver 등)은 전부 user 레벨에서 실행되는 구조<br/><br/>
-![capture](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-02-study-intro_os_6.png)
+![capture](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-11-02-study-intro_os_6.png)
 <br/><br/>
 
 <h4>Reference</h4>

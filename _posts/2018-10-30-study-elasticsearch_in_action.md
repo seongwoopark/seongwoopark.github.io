@@ -34,7 +34,7 @@ for example, or it could be an IP address. If you want only exact matches on a
 field, the entire field should be treated as a word<br/><br/>
 
 Default analyzer의 indexing<br/>
-![default analyzer](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_1.png)<br/><br/>
+![default analyzer](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_1.png)<br/><br/>
 
 Setting index to not_analyzed does the opposite: the analysis process is skipped,
 and the entire string is indexed as one term. Use this option when you want exact matches, 
@@ -55,11 +55,11 @@ search시 sort하면, score는 null로 평가된다
 필터와 쿼리의 가장 큰 차이는 scoring! 필터는 scoring이 아니라 yes/no로 이진 판단만 한다
 
 필터 비트셋 예시<br/>
-![filter bit set](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_2.png)<br/><br/>
+![filter bit set](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_2.png)<br/><br/>
 
 <h5>Ch 5 Analyzing your data</h5>
 분석기 동작 과정(도큐먼트가 indexing 되는 과정)<br/>
-![analyzer](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_3.png)<br/><br/>
+![analyzer](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_3.png)<br/><br/>
 
 pattern, UAX/URL/EMAIL, path 토크나이저 유용할듯
 
@@ -88,12 +88,12 @@ Summary
 1. 집계공통
 2. 지표집계(metric aggregation) - 통계분석(최대, 최소, 표준편차 등)
 3. 버킷집계(bucket aggregation) - 그림 7.1에서 각 tag들이 하나의 버킷에 해당되고, 그 버킷에 문서가 담긴다<br/>
-![bucket aggregation](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_4.png)<br/><br/>
+![bucket aggregation](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_4.png)<br/><br/>
 4. 중첩집계(composite aggregation) - 그림 7.2처럼 버킷아래에 또 다른 기준의 집계를 위한 하위 버킷을 중첩해서 사용할 수 있다<br/>
-![nested aggregation](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_5.png)<br/><br/>
+![nested aggregation](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_5.png)<br/><br/>
 
 Filtered 질의와 post filter의 비교<br/>
-![post filter](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_6.png)<br/><br/>
+![post filter](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_6.png)<br/><br/>
 
 근사치통계(approximate aggregations)의 필요성<br/>
 -> 문서 전체를 대상으로하는건 많은 시간과, 메모리를 사용한다
@@ -106,7 +106,7 @@ Filtered 질의와 post filter의 비교<br/>
 2. cardinality
 
 지표집계(metric aggregation) 예제<br/>
-![metric aggregation](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_7.png)<br/><br/>
+![metric aggregation](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_7.png)<br/><br/>
 
 버킷집계(bucket aggregation)의 종류
 1. terms aggregation(significant terms aggregation)
@@ -116,7 +116,7 @@ Filtered 질의와 post filter의 비교<br/>
 5. geodistance, geohash grid aggregation
 
 버킷집계(bucket aggregation 예제<br/>
-![bucket aggregation](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_8.png)<br/><br/>
+![bucket aggregation](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_8.png)<br/><br/>
 
 missing aggregation; nosql의 특징을 잘 회피하면서 aggregation 하는 유용한 방법인 듯
 
@@ -140,34 +140,34 @@ Summary
 elasticsearch에서 도큐먼트간 관계를 다루는 방법들
 1. 개체(Object) datatype
 2. 중첩(Nested) datatype<br/>
-![object and nested datatype](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_9.png)<br/><br/>
+![object and nested datatype](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_9.png)<br/><br/>
 3. Parent/child(-> [join datatype](https://www.elastic.co/guide/en/elasticsearch/reference/6.3/parent-join.html)으로 대체됨)<br/>
-![join datatype](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_10.png)<br/><br/>
+![join datatype](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_10.png)<br/><br/>
 4. 비정규화(Denormalize)<br/>
-![denormalize](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_11.png)<br/><br/>
+![denormalize](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_11.png)<br/><br/>
 5. 개별 Document, App level에서 logic으로 처리<br/>
-![app level](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_12.png)<br/><br/>
+![app level](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_12.png)<br/><br/>
 
 개체(Object) datatype의 도큐먼트를 indexing 하는 경우, 내부 저장구조
-![obejct datatype의 indexing](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_13.png)<br/><br/>
+![obejct datatype의 indexing](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_13.png)<br/><br/>
 
 개체(Object) datatype은 1:1관계에서 가장 잘 작동한다, 1:N을 표현하기 위해서는 data indexing을 array로 해야하는데, 이렇게 되면 elasticsearch는 내부적으로 아래와 같이 indexing 하게되어 예상치 않은 동작을 한다.
-![obejct datatype의 indexing problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_14.png)<br/><br/>
+![obejct datatype의 indexing problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_14.png)<br/><br/>
 
 개체(Object) datatype에서 교차-개체 조건을 둘다 활성화 하려면, INCLUDE_IN_ROOT, INCLUDE_IN_PARENT를 사용해야한다
 1. INCLUDE_IN_ROOT 예시<br/>
-![obejct datatype의 INCLUDE_IN_ROOT](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_15.png)<br/><br/>
+![obejct datatype의 INCLUDE_IN_ROOT](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_15.png)<br/><br/>
 2. INCLUDE_IN_PARENT 예시<br/>
-![obejct datatype의 INCLUDE_IN_PARENT](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_16.png)<br/><br/>
+![obejct datatype의 INCLUDE_IN_PARENT](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_16.png)<br/><br/>
 
 
 <h5>Ch 9 Scaling out</h5>
 노드 1개에서 -> 2개로 scale out되는 경우 동작; unassigned 되어있던 샤드들이 assign 된다<br/>
-![unassigned shards](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_17.png)<br/><br/>
+![unassigned shards](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_17.png)<br/><br/>
 
 그림 9.2처럼, 노드가 3개일때 한 노드에 primary, replica 샤드가 동시에 있을 수는 있지만 같은(같은 번호의) primary, replica 샤드가 동시에 같은 노드에 있을 수는 없다
 es는 primary 샤드를 찾을 수 없을 경우, replica샤드를 primary로 승격시켜서 사용한다
-![replica shard promoted](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_18.png)<br/><br/>
+![replica shard promoted](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_18.png)<br/><br/>
 
 노드가 추가되면 좋은 점<br/>
 query나 aggregation 성능 향상에 도움이 된다(각 노드별로 메모리 및 연산 리소스를 따로 사용하기 분산처리 효과가 있음)
@@ -188,7 +188,7 @@ es에서 노드 멀티캐스트 디스커버리는 deprecated 됐다. 유니캐�
 - 마스터 노드의 선출은 어떻게? -> 선거, voting 로직이 있음
 
 마스터 노드의 장애감지 프로세스<br/>
-![master node ping](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_19.png)<br/><br/>
+![master node ping](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_19.png)<br/><br/>
 
 장애감지 프로세스 config 값들<br/>
 - ping_interval: 마스터 노드는 이 간격마다 다른 노드들에 장애 감지를 위한 핑을 보낸다
@@ -198,7 +198,7 @@ es에서 노드 멀티캐스트 디스커버리는 deprecated 됐다. 유니캐�
 예를들어 서로 다른 aws 리전에 있는 ec2들을 노드로 사용하는 것처럼 ping의 요청/응답 레이턴시가 긴 경우 위 config 값들을 적절하게 변경해줘야 한다
 
 노드가 유실되는 경우 동작<br/>
-![lost node](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_20.png)<br/><br/>
+![lost node](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_20.png)<br/><br/>
 
 이후에, 레플리카 샤드를 재생성<br/>
-![restore replica shard](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2018-10-30-study-elasticsearch_in_action_21.png)<br/><br/>
+![restore replica shard](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2018-10-30-study-elasticsearch_in_action_21.png)<br/><br/>

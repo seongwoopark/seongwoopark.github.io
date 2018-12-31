@@ -18,7 +18,7 @@ O(빅오), Ω(오메가), Θ(세타)등이 있다. 일반적으로 빅오와 �
 - 정의 :<br/>
 ```O(g(n)) = {f(n) : there exist positive constants c and n0 such that 0≤f(n)≤cg(n) for all n≥n0}```<br/>
 
-![o_notation_graph](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-26-study-time_complexity_1.png)<br/>
+![o_notation_graph](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-10-26-study-time_complexity_1.png)<br/>
 n0를 기준으로 n0보다 오른쪽에 있는 모든 n 값에 대해 함수 f(n)은 함수 cg(n)보다 작거나 같다는 의미이다. 그래프가 아래에 있을 수록 수행시간이 짧은 것이므로 성능이 좋은 것이다.
 
 <h4>Ω Notation (오메가 표기법)</h4>
@@ -28,7 +28,7 @@ n0를 기준으로 n0보다 오른쪽에 있는 모든 n 값에 대해 함수 f(
 - 정의 :<br/>
 ```Ω(g(n)) = {f(n) : there exist positive constants c and n0 such that 0≤cg(n)≤f(n) for all n≥n0}```<br/>
 
-![omega_notation_graph](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-26-study-time_complexity_2.png)<br/>
+![omega_notation_graph](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-10-26-study-time_complexity_2.png)<br/>
 n0를 기준으로 n0보다 오른쪽에 있는 모든 n 값에 대해 함수 f(n)은 함수 cg(n)보다 크거나 같다는 의미이다.
 
 <h4>Θ Notation (세타 표기법)</h4>
@@ -37,7 +37,7 @@ n0를 기준으로 n0보다 오른쪽에 있는 모든 n 값에 대해 함수 f(
 - 정의 :<br/>
 ```Θ(g(n)) = {f(n) : there exist positive constants c1, c2 and n0 such that 0≤c1g(n)≤f(n)≤c2g(n) for all n≥n0}```<br/>
 
-![theta_notation_graph](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-26-study-time_complexity_3.png)<br/>
+![theta_notation_graph](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-10-26-study-time_complexity_3.png)<br/>
 n0를 기준으로 n0보다 오른쪽에 있는 모든 n 값에 대해 함수 f(n)은 함수 c1g(n)보다 크거나 같거나 c2g(n)보다 작거나 같다는 의미이다.
 
 <br/>**Note; Θ(1) == O(1) == constant time**<br/>

@@ -6,8 +6,8 @@ category: problemsolving
 tags: [problemsolving, dynamic programming]
 ---
 <h4>문제</h4>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-03-problemsolving-fibonacci_modified_1.png)<br/><br/>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-03-problemsolving-fibonacci_modified_2.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-07-03-problemsolving-fibonacci_modified_1.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/media/2017-07-03-problemsolving-fibonacci_modified_2.png)<br/><br/>
 
 <h4>풀이 및 답</h4>
 ```
