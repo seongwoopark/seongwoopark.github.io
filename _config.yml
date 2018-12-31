@@ -152,6 +152,7 @@ exclude:
 # prose.io config
 prose:
   rooturl: '_posts'
+  siteurl: 'https://seongwoopark.github.io'
   media: 'media'
   ignore:
     - 404.html
