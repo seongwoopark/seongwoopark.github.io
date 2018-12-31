@@ -2,12 +2,12 @@
 layout: post
 title: Integer Family
 subtitle: from Codility
-category: algorithm
-tags: [algorithm]
+category: problemsolving
+tags: [problemsolving]
 ---
 <h4>문제</h4>
 **Note:** 문제 이름은 임의로 작성한 것 입니다.<br/>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-12-07-algorithm-integer_family_1.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-12-07-problemsolving-integer_family_1.png)<br/><br/>
 
 <h4>풀이 및 답</h4>
 python 인터프리터로 테스트하다보니 아래처럼 한 라인으로 해결이 되었다. 

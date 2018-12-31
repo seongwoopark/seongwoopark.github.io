@@ -2,12 +2,12 @@
 layout: post
 title: Minimum Loss
 subtitle: from HackerRank
-category: algorithm
-tags: [algorithm, search]
+category: problemsolving
+tags: [problemsolving, search]
 ---
 <h4>문제</h4>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-04-algorithm-minimum_loss_1.png?raw=true)<br/><br/>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-04-algorithm-minimum_loss_2.png?raw=true)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-04-problemsolving-minimum_loss_1.png?raw=true)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-04-problemsolving-minimum_loss_2.png?raw=true)<br/><br/>
 
 <h4>풀이 및 답</h4>
 인풋 값을 입력 받고, 문제 정의에 의해서 price list의 인덱스가 year가 되기에 price와 인덱스 값을 year로 갖는 tuple의 list를 생성한다.<br/>

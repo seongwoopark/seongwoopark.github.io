@@ -2,12 +2,12 @@
 layout: post
 title: Primality Algorithms
 subtitle: from HackerRank
-category: algorithm
-tags: [algorithm, primality, prime number]
+category: problemsolving
+tags: [problemsolving, primality, prime number]
 ---
 <h4>문제</h4>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-27-algorithm-primality_check_1.png)<br/><br/>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-27-algorithm-primality_check_2.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-27-problemsolving-primality_check_1.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-10-27-problemsolving-primality_check_2.png)<br/><br/>
 
 <h4>풀이 및 답</h4>
 Note를 제대로 읽지 않고 그냥 아무생각없이 O(n)이 되도록 문제를 풀었을 때는 아래와 같았다.

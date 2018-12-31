@@ -2,13 +2,13 @@
 layout: post
 title: Elevator Stops
 subtitle: from Codility
-category: algorithm
-tags: [algorithm]
+category: problemsolving
+tags: [problemsolving]
 ---
 <h4>문제</h4>
 **Note:** 문제 이름은 임의로 작성한 것 입니다.<br/>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-12-07-algorithm-elevator_stops_1.png)<br/><br/>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-12-07-algorithm-elevator_stops_2.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-12-07-problemsolving-elevator_stops_1.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-12-07-problemsolving-elevator_stops_2.png)<br/><br/>
 
 <h4>풀이 및 답</h4>
 문제를 다 읽고나서 우선, 문제 흐름대로 코멘트 부터 작성했다. 왜 영어로 작성했는지는 모르겠지만 문법 파괴는 덤이다.

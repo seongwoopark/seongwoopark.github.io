@@ -2,8 +2,8 @@
 layout: post
 title: 홀수인 숫자들의 제곱의 합
 subtitle: from 로켓펀치 채용공고
-category: algorithm
-tags: [algorithm, strings]
+category: problemsolving
+tags: [problemsolving, strings]
 ---
 <h4>문제</h4>
 **Note:** 문제 이름은 임의로 작성한 것 입니다.<br/>

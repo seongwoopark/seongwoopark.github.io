@@ -2,12 +2,12 @@
 layout: post
 title: File Iterator
 subtitle: from Codility
-category: algorithm
-tags: [algorithm]
+category: problemsolving
+tags: [problemsolving]
 ---
 <h4>문제</h4>
 **Note:** 문제 이름은 임의로 작성한 것 입니다. 아래는 문제의 전체가 아닌 일부 캡쳐입니다.<br/>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-12-07-algorithm-file_iterator_1.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-12-07-problemsolving-file_iterator_1.png)<br/><br/>
 이어지는 내용:
 ```python
 # your iterator should return the following sequence of integers:
@@ -126,5 +126,5 @@ class FileIterator(object):
 - integer이므로 당연히 정수만 허용한다. **(regex패턴, int 내장함수 처리)**
 
 와 같이 처리됐다. 찜찜하지만 더 이상 테스트할 케이스가 생각나지 않아 제출하였고, 결과는 다음과 같았다.<br/>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-12-07-algorithm-file_iterator_2.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-12-07-problemsolving-file_iterator_2.png)<br/><br/>
 task 3의 score를 보니 하나의 테스트 케이스를 통과하지 못한 것 같다. 역시 찜찜하긴 했는데, 어떤 케이스가 통과하지 못한 건지는 여전히 알 수 가 없다. 

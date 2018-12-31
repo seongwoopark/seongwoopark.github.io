@@ -26,7 +26,7 @@ navbar-links:
   Home: "blog/index"
   TIL&TIF: "blog/TIL&TIF/index"
   Study: "blog/study/index"
-  Algorithm: "blog/algorithm/index"
+  ProblemSolving: "blog/problemsolving/index"
   Projects: "blog/project/index"
 
 # Image to show in the navigation bar - image must be a square (width = height)

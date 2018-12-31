@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Relational data in Elasticsearch
-subtitle: RDB에서 NOSQL로 마이그레이션 하기
+subtitle: ES에서 관계형 데이터 다루기
 category: study
 tags: [advanced, database, nosql, elasticsearch]
 ---

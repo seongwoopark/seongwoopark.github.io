@@ -2,12 +2,12 @@
 layout: post
 title: Bitwise And
 subtitle: from HackerRank
-category: algorithm
-tags: [algorithm, bitwise operator, bitwise and]
+category: problemsolving
+tags: [problemsolving, bitwise operator, bitwise and]
 ---
 <h4>문제</h4>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-01-algorithm-bitwise_and_1.png)<br/><br/>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-01-algorithm-bitwise_and_2.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-01-problemsolving-bitwise_and_1.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-01-problemsolving-bitwise_and_2.png)<br/><br/>
 
 <h4>풀이 및 답</h4>
 처음 brute force하게 문제를 해결했을때는 O(n!)이었다. 
@@ -76,5 +76,5 @@ for _ in range(T):
 # reference: Jekus의 comment from https://www.hackerrank.com/challenges/30-bitwise-and/forum
 ```
 이.. 하.. 얼마나... 짧단 말인가.. comment를 읽어보니 수학적으로 접근했다.
-![proof](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-01-algorithm-bitwise_and_3.png)<br/><br/>
+![proof](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-01-problemsolving-bitwise_and_3.png)<br/><br/>
 오늘도 머리 좋은 분을 보고 나의 머리에 참담함을 느낀다.

@@ -2,12 +2,12 @@
 layout: post
 title: Counter game
 subtitle: from HackerRank
-category: algorithm
-tags: [algorithm, bit manipulation]
+category: problemsolving
+tags: [problemsolving, bit manipulation]
 ---
 <h4>문제</h4>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-06-algorithm-counter_game_1.png?raw=true)<br/><br/>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-06-algorithm-counter_game_2.png?raw=true)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-06-problemsolving-counter_game_1.png?raw=true)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-07-06-problemsolving-counter_game_2.png?raw=true)<br/><br/>
 
 <h4>풀이 및 답</h4>
 문제에서 정의하는 operations를 생각해보면 결국 아래와 같아진다는 것을 알았다.

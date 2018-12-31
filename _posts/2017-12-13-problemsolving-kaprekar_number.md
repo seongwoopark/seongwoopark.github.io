@@ -2,8 +2,8 @@
 layout: post
 title: Kaprekar Number
 subtitle: from PB
-category: algorithm
-tags: [algorithm]
+category: problemsolving
+tags: [problemsolving]
 ---
 <h4>문제</h4>
 

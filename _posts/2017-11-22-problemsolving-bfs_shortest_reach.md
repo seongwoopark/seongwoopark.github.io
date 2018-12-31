@@ -2,13 +2,13 @@
 layout: post
 title: BFS, Shortest Reach in a Graph
 subtitle: from HackerRank
-category: algorithm
-tags: [algorithm, bfs, graph]
+category: problemsolving
+tags: [problemsolving, bfs, graph]
 ---
 <h4>문제</h4>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-22-algorithm-bfs_shortest_reach_1.png)<br/><br/>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-22-algorithm-bfs_shortest_reach_2.png)<br/><br/>
-![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-22-algorithm-bfs_shortest_reach_3.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-22-problemsolving-bfs_shortest_reach_1.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-22-problemsolving-bfs_shortest_reach_2.png)<br/><br/>
+![problem](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-22-problemsolving-bfs_shortest_reach_3.png)<br/><br/>
 
 <h4>풀이 및 답</h4>
 처음에는 shortest path하길래 무조건 다익스트라 알고리즘을 쓰면 되겠거니 했다. 주입식교육이란.. 그런데 문제의 BFS를 보고나서 다익스트라 말고, BFS 방법으로
@@ -57,7 +57,7 @@ distance를 계산하기 위한 find_all_distances함수에서 queue가 empty일
 이 생각의 흐름속에서 fully connected graph일 경우를 간단한 케이스로 생각해보았을 때 위의 로직으로는 무한루프에 빠진다는 것을 알게 됐다. 잠깐 생각했던 로직에 문제가 있던 것이 맞았다.
 역시 의심할 것은 내 머리, 내가 짠 로직이다.<br/>
 아래와 같이 node가 3개인 fully connected graph를 생각해볼 경우, queueing이 반복된다.
-![queue table](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-22-algorithm-bfs_shortest_reach_4.png)
+![queue table](https://raw.githubusercontent.com/seongwoopark/seongwoopark.github.io/master/img/2017-11-22-problemsolving-bfs_shortest_reach_4.png)
 
 문제점을 파악한 후 아래와 같이 이미 distance가 구해져 있는 경우에는 값을 비교하여 더 작을 경우만 queueing 하도록 if문을 추가하여 문제를 해결했다.  
 ```python
