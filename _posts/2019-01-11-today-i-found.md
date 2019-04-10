@@ -1,13 +1,8 @@
 ---
 layout: post
-published: true
 title: Today I Found
 category: TILTIF
-tags:
-  - TIF
-date: '2019-01-11'
-subtitle: ''
-image: ''
+tags: [TIF]
 ---
 ## Refactoring
 마틴파울러, 리팩터링 정리 1편 - http://asfirstalways.tistory.com/373
