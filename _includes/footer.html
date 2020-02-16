@@ -1,15 +1,15 @@
-<footer>
+<footer style="background:#000;color: #fff;">
   <div class="container">
       <a href="#top" data-scroll class="back-to-top"><i class="fa fa-chevron-up"></i></a>
       <ul class="social">
-          {% if site.author.facebook_link and site.footer-links-active.facebook %}
-          <li><a href="{{ site.author.facebook_link }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          {% if site.author.github_link and site.footer-links-active.github %}
+          <li><a href="{{ site.author.github_link }}" target="_blank"><i class="fa fa-github"></i></a></li>
           {% endif %}
           {% if site.author.linkedin_link and site.footer-links-active.linkedin %}
           <li><a href="{{ site.author.linkedin_link }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
           {% endif %}
-          {% if site.author.github_link and site.footer-links-active.github %}
-          <li><a href="{{ site.author.github_link }}" target="_blank"><i class="fa fa-github"></i></a></li>
+          {% if site.author.facebook_link and site.footer-links-active.facebook %}
+          <li><a href="{{ site.author.facebook_link }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
           {% endif %}
           {% if site.author.twitter_link and site.footer-links-active.twitter %}
           <li><a href="{{ site.author.twitter_link }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -50,11 +50,11 @@
           {% endif %}
       {% endif %}
       </ul>
-      <p>
-          Theme by <a href="http://deanattali.com/beautiful-jekyll/" target="_blank">beautiful-jekyll</a><br/>
-          Style by <a href="http://graphberry.com" target="_blank">GraphBerry</a> &nbsp;&bull;&nbsp;
-          Logo by <a href="http://color-lim.com" target="_blank">SungHo Lim</a><br/>
-          Copyright {{ site.time | date: '%Y' }} by {{ site.author.name }}
-      </p>
+<!--      <p>-->
+<!--          Theme by <a href="http://deanattali.com/beautiful-jekyll/" target="_blank">beautiful-jekyll</a><br/>-->
+<!--          Style by <a href="http://graphberry.com" target="_blank">GraphBerry</a> &nbsp;&bull;&nbsp;-->
+<!--          Logo by <a href="http://color-lim.com" target="_blank">SungHo Lim</a><br/>-->
+<!--          Copyright {{ site.time | date: '%Y' }} by {{ site.author.name }}-->
+<!--      </p>-->
   </div>
 </footer>
