@@ -476,8 +476,8 @@ footer{
 }
 
 footer .back-to-top{
-	margin-top:-10px;
-	margin-bottom:50px;
+	margin-top:-5px;
+	margin-bottom:0;
 	display: block;
 }
 
