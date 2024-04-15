@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: SeongWoo
+title: Seongwoo
 
 # Short description of your site
-description: Park's blog
+description: Seongwoo blog
 
 # --- Navigation bar options --- #
 
@@ -42,7 +42,7 @@ navbar-links:
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: SeongWoo Park
+  name: Seongwoo Park
   email: "seongwoopark3@gmail.com"
   telephone: +821033686061
   facebook_link: "https://www.facebook.com/swoopark3"
