@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Today I Found
-category: TILTIF
+category: today
 tags: [TIF]
 ---
 ## Refactoring
