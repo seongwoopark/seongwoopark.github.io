@@ -2,7 +2,7 @@
 layout: post
 title: Today I Found
 category: today
-tags: [TIF]
+tags: [today, TIF]
 ---
 ## Refactoring
 마틴파울러, 리팩터링 정리 1편 - http://asfirstalways.tistory.com/373
